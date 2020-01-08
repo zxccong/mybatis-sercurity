@@ -1,0 +1,16 @@
+database:
+  host:
+  port: 3306
+  databasename:
+  username: root
+  password:
+redisbase:
+  #  host: 127.0.0.1
+  host: 112.74.200.88
+  port: 6379
+  databasename: 0
+  password: Chris6612520
+mysqlSize:
+  max: 8
+  min: 2
+  size: 2

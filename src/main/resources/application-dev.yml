@@ -1,0 +1,22 @@
+database:
+#  host: 10.10.86.7
+  host: 127.0.0.1
+  port: 3306
+  databasename: invoice_system
+  username: root
+  password: 123456
+jwt:
+  header: Token
+  expires_in: 86400000 # 24 小时
+  mobile_expires_in: 86400000 # 24 小时
+  secret: iukjytrqzdlq
+redisbase:
+  #  host: 127.0.0.1
+  host: 112.74.200.88
+  port: 6379
+  databasename: 0
+  password: Chris6612520
+mysqlSize:
+  max: 8
+  min: 2
+  size: 2
